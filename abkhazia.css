@@ -3,8 +3,8 @@ input[type=checkbox] {
 }
   
 .contain img {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 600px;
     margin: 10px;
     border: 6px solid #EFB0C9;
     border-radius: 10%;
@@ -17,12 +17,6 @@ input[type=checkbox]:checked ~ label > img {
     transform: scale(2);
     cursor: zoom-out;
 }
-
-/*
-.contain {
-    text-align: center;
-}
-*/
 
 .three-photo {
     display: flex;
