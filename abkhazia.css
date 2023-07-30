@@ -4,7 +4,8 @@ input[type=checkbox] {
   
 .contain img {
     width: 400px;
-    margin-top: 10px;
+    height: 400px;
+    margin: 10px;
     border: 6px solid #EFB0C9;
     border-radius: 10%;
     text-align: center;
@@ -17,6 +18,13 @@ input[type=checkbox]:checked ~ label > img {
     cursor: zoom-out;
 }
 
+/*
 .contain {
     text-align: center;
+}
+*/
+
+.three-photo {
+    display: flex;
+    justify-content: center;
 }
