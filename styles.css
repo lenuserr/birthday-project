@@ -1,9 +1,8 @@
-/*13:45 let's go final project*/
-/*16:00 уже сделана abkhazia.html. теперь нужно заполнять её и добавлять следующие вкладки затем*/
 body {
     text-align: center;
     color: #ffffff;
-    font-family: 'Happy Monkey', cursive;
+    /*font-family: 'Happy Monkey', cursive;*/
+    font-style: italic;
 }
 
 h1, h2, h3, h4, p {
@@ -72,11 +71,27 @@ h1, h2, h3, h4, p {
     background-image: url("https://media.giphy.com/media/Dt0B7cFxr75famoPEO/giphy.gif");
 }
 
+#gift-img-di-caprio {
+    height: 200px;
+}
+
+#last-section {
+    margin-bottom: 30px;
+}
+
+/*
 #gift-img-putin:hover {
     height: 315px;
     width: 550px;
     background-image: url("https://i.yapx.cc/JXL2K.gif");
 }
+
+<div class="gift-section">
+    <h2 class="gift-title">Еще один президент хотел тебя поздравить</h2>
+    <h3>(Нажни на подарок)</h3>
+    <div class="gift-img" id="gift-img-putin"></div>
+</div>
+
 
 #gift-img-hot:hover {
     width: 480px;
@@ -84,16 +99,8 @@ h1, h2, h3, h4, p {
     background-image: url("https://media.giphy.com/media/vHbgFUn0VxQTdzh7Sp/giphy.gif");
 }
 
-#gift-img-di-caprio {
-    height: 200px;
-}
-
-.wrapper {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.video-item {
-    width: 400px;
-}
+<div class="gift-section">
+    <h2 class="gift-title">Как должна реагировать мама, когда ты возвращаешься домой с работы</h2>
+    <div class="gift-img" id="gift-img-hot"></div>
+</div>
+*/
