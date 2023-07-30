@@ -1,21 +1,10 @@
-input[type=checkbox] {
-    display: none;
-}
-  
 .contain img {
-    width: 200px;
-    height: 600px;
+    width: 550px;
+    height: 800px;
     margin: 10px;
     border: 6px solid #EFB0C9;
     border-radius: 10%;
     text-align: center;
-    transition: transform 0.25s ease;
-    cursor: zoom-in;
-}
-  
-input[type=checkbox]:checked ~ label > img {
-    transform: scale(2);
-    cursor: zoom-out;
 }
 
 .three-photo {
