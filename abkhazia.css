@@ -1,6 +1,6 @@
 .contain img {
     width: 550px;
-    height: 800px;
+    height: 650px;
     margin: 10px;
     border: 6px solid #EFB0C9;
     border-radius: 10%;
@@ -11,3 +11,30 @@
     display: flex;
     justify-content: center;
 }
+
+#hero-elbrus {
+    text-align: center;
+    padding-bottom: 870px;
+    background-image: url("images/elbrus.jpg");
+}
+
+#hero-abkhazia {
+    text-align: center;
+    padding-bottom: 870px;
+    background-image: url("images/lake-ritsa.jpg");
+}
+
+#hero-kabardino-balkarian {
+    text-align: center;
+    padding-bottom: 870px;
+    background-image: url("images/kabardino-balkarian.jpg");
+}
+
+#ritsa-text {
+    margin-top: 30px;
+}
+
+#kb-text {
+    margin-top: 30px;
+}
+
